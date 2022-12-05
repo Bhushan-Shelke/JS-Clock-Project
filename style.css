@@ -271,7 +271,7 @@ left: 124px; */
   box-sizing: border-box;
   opacity: 1;
   transition: all;
-  transition-duration: 1s;
+  transition-duration: 0.3s;
   color: #ffffff;
   padding-left: 80px;
   padding-top: 5px;
@@ -372,6 +372,8 @@ left: 124px; */
 }
 .ok {
   background: url(AM_svg.svg);
+  padding-top: 20px;
+  box-sizing: border-box;
 }
 .grab {
   position: relative;
