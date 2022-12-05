@@ -286,6 +286,7 @@ left: 124px; */
 }
 .font:hover {
   z-index: 1;
+  cursor: pointer;
 }
 .bottom {
   position: relative;
