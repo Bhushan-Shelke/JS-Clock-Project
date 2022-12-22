@@ -371,7 +371,7 @@ left: 124px; */
   color: #8a11bf;
   opacity: 1;
 }
-#min{
+#min {
   background: transparent url(timeline.svg) 0% 0% no-repeat padding-box;
   opacity: 1;
   width: 85px;
@@ -390,7 +390,8 @@ left: 124px; */
   color: #8a11bf;
   opacity: 1;
 }
-#sec{  background: transparent url(timeline.svg) 0% 0% no-repeat padding-box;
+#sec {
+  background: transparent url(timeline.svg) 0% 0% no-repeat padding-box;
   opacity: 1;
   width: 85px;
   height: 90px;
