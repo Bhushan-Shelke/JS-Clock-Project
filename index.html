@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <div class="logo"><img src="clockk.png" alt="404err0r" /></div>
+    <div class="logo"><img src="clock_logo.png" alt="404err0r" /></div>
     <div class="box">
       <div class="wakeup">
         <div class="sun"><img src="wakeup.png" alt="Error404" /></div>
@@ -75,26 +75,31 @@
     </div>
     <div class="boxx">Good Evening !!</div>
     <div class="boxxx">
-      <div class="font"><span class="fo">Set Alarm</span></div>
-      <div class="fontt"><span class="foo">Party Time</span></div>
+      <button class="font"><span class="fo">Set Alarm</span></button>
+      <!-- <div class="fontt"><span class="foo">Party Time</span></div> -->
     </div>
     <div class="bottom">
-      <div class="text">Wake up Time:10Am-11Am</div>
-      <div class="text">Lunch Time:12Pm-1Pm</div>
-      <div class="text">Nap Time:4Pm-5Pm</div>
-      <div class="text">Night Time:8Pm-9Am</div>
+      <div class="text">Wake up Time:</div>
+      <div class="text">Lunch Time:</div>
+      <div class="text">Nap Time:</div>
+      <div class="text">Night Time:</div>
     </div>
     <div>
-      <div class="second"></div>
-      <div class="secondf">
+      <div id="second"></div>
+      <div class="secondf" id="timer">
         <div class="time">Time</div>
-        <div class="hour">10 Hours</div>
-        <div class="hour">00 Mins</div>
-        <div class="hour">01 Secs</div>
-        <div class="hour ok">AM</div>
+        <div>
+          <div id="hour"></div>
+          <!-- <span>Hour</span> -->
+        </div>
+        
+        <div id="min">00 Mins</div>
+        <div id="sec">01 Secs</div>
+        <div id="ok">AM</div>
       </div>
     </div>
     <div class="grab">Grab Some Healthy Breakfast!!!</div>
     <div class="down"></div>
+    <script src="functions.js"></script>
   </body>
 </html>
